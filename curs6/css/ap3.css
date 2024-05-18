@@ -1,1 +1,37 @@
+h1{
+    border-bottom: 2px solid blue;
+    text-align: center;
+    
+}
 
+form{
+    width: 500px;
+    border: 1px #3e3e3e solid;
+    margin: auto;
+}
+
+form div{
+    margin: 15px 0px
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input{
+    padding: 10px;
+    display: inline-block;
+    width: 200px;
+}
+
+#checkbox{
+    display: inline-block;
+    width: 20px;
+    padding: 0px;
+}
+
+#submit{
+    display: inline-block;
+    margin-left: 130px;
+}
