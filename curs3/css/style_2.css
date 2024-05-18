@@ -1,0 +1,43 @@
+div{
+    width: 45%;
+    float: left;
+    border: 2px solid hsl(0, 0%, 0%) ;
+    padding: 25px;
+    margin: 10px;
+}
+
+#stanga{
+background-color: azure;
+}
+
+#dreapta{
+    background-color: chocolate;
+}
+
+.p1{
+     color: red;
+}
+
+.p2{
+     color: green;
+}
+
+.p3{
+    font-size: 50%;
+}
+
+#idp4{
+    color: grey;
+}
+
+#Bootom{
+    width: 100%;
+
+}
+#Bootom  > p{
+    color: red;
+}
+
+#Bootom article~p{
+    color: blue;
+}
