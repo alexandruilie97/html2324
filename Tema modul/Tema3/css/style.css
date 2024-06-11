@@ -1,1 +1,75 @@
+body{
+    width: 100%;
+    background-color: black;
+    
+}
 
+nav{
+    width: 21%;
+    height: 100%;
+    background-color: red;
+    display: inline-block;
+    
+}
+
+nav ul{
+    height: 100%;
+    max-width: 200px;
+    margin: auto;
+   
+    
+
+}
+
+nav ul li{
+    margin: 5px 0px;
+    padding: 30px;
+    list-style: none;
+    border: 2px solid yellow;  
+    text-align: center;
+    max-width: 100%;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+main{
+    width:75%;
+    display: inline-block;
+    float: right;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+h3{
+    color: chartreuse;
+}
+
+p:nth-child(2n){
+    color: aqua;
+}
+
+P:nth-child(2n+1){
+    color: coral;
+}
+
+.activ{
+    background-color: yellow;
+    font-style: oblique;
+}
+
+table, tr, td{
+    border:2px solid white;
+    color: fuchsia;
+    text-align: center;
+}
+
+img{
+    margin: auto 0px;
+}
